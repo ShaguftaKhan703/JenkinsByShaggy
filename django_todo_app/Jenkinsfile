@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Clone Repo') {
             steps {
-                git 'https://github.com/your-username/django-todo-app.git'
+                git 'https://github.com/ShaguftaKhan703/JenkinsByShaggy.git'
             }
         }
         stage('Set Up Python') {
